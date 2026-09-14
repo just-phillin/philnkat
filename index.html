@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f0e8">
+  <meta name="description" content="Celebrate the wedding of Phil and Kat.">
+  <title>Phil & Kat — We're Getting Married</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="monogram" href="#top" aria-label="Phil and Kat home">P<span>&</span>K</a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#story">Our Story</a><a href="#details">Details</a><a href="#travel">Travel</a><a href="#rsvp">RSVP</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"><span class="arch"></span><span class="sun"></span><span class="stem stem-one"></span><span class="stem stem-two"></span></div>
+      <div class="eyebrow reveal">Together with their families</div>
+      <h1 id="hero-title" class="reveal">Phil <em>&</em> Kat</h1>
+      <p class="hero-copy reveal">joyfully invite you to celebrate their wedding</p>
+      <div class="hero-meta reveal">
+        <span data-wedding-date-display>DATE TO BE ANNOUNCED</span>
+        <i></i>
+        <span data-wedding-location>LOCATION TO BE ANNOUNCED</span>
+      </div>
+      <a class="scroll-cue" href="#story">Discover our day <span>↓</span></a>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-number">01</div>
+      <div class="story-copy reveal">
+        <p class="kicker">A little about us</p>
+        <h2>Our favorite chapter<br>starts here.</h2>
+        <p data-story>We can’t wait to gather the people we love most for a day full of happy tears, excellent food, and questionable dance moves. Check back soon for the story of how we met, fell in love, and decided on forever.</p>
+      </div>
+      <div class="quote-card reveal"><span>“</span><p>Whatever our souls are made of, yours and mine are the same.</p><cite>— Emily Brontë</cite></div>
+    </section>
+
+    <section class="countdown-band" aria-label="Wedding countdown">
+      <p class="kicker">Counting down to forever</p>
+      <div class="countdown" data-countdown>
+        <div><strong data-days>—</strong><span>Days</span></div>
+        <div><strong data-hours>—</strong><span>Hours</span></div>
+        <div><strong data-minutes>—</strong><span>Minutes</span></div>
+        <div><strong data-seconds>—</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-note" data-countdown-note>Save the date — details coming soon.</p>
+    </section>
+
+    <section class="details section" id="details">
+      <div class="section-number">02</div>
+      <div class="section-heading reveal"><p class="kicker">The celebration</p><h2>When & where</h2></div>
+      <div class="detail-grid">
+        <article class="detail-card reveal"><span class="card-index">I</span><h3>Ceremony</h3><p class="detail-time" data-ceremony-time>TIME TO BE ANNOUNCED</p><p data-ceremony-venue>Venue name<br>Street address<br>City, State ZIP</p><a data-ceremony-map href="#" aria-disabled="true">View map <span>↗</span></a></article>
+        <article class="detail-card reveal"><span class="card-index">II</span><h3>Reception</h3><p class="detail-time" data-reception-time>TIME TO BE ANNOUNCED</p><p data-reception-venue>Venue name<br>Street address<br>City, State ZIP</p><a data-reception-map href="#" aria-disabled="true">View map <span>↗</span></a></article>
+        <article class="detail-card reveal"><span class="card-index">III</span><h3>Dress Code</h3><p class="detail-time" data-dress-code>FORMAL ATTIRE</p><p data-dress-note>We’d love to see you dressed up with us. Additional guidance will be shared here.</p></article>
+      </div>
+    </section>
+
+    <section class="travel section" id="travel">
+      <div class="travel-panel reveal">
+        <p class="kicker">Make a weekend of it</p><h2>Travel & stay</h2>
+        <p data-travel-copy>Hotel blocks, transportation details, and our favorite local spots will be added once arrangements are finalized.</p>
+        <div class="travel-actions"><a class="button button-light" data-hotel-link href="#" aria-disabled="true">Hotel information</a><a class="text-link" data-things-link href="#" aria-disabled="true">Things to do <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="rsvp section" id="rsvp">
+      <div class="section-number">03</div>
+      <div class="rsvp-inner reveal">
+        <p class="kicker">Kindly reply</p><h2>Will you join us?</h2>
+        <p data-rsvp-copy>Formal invitations and RSVP details are on the way. We hope you can celebrate with us.</p>
+        <a class="button" data-rsvp-link href="#" aria-disabled="true">RSVP coming soon</a>
+        <p class="deadline" data-rsvp-deadline></p>
+      </div>
+    </section>
+
+    <section class="registry section" id="registry">
+      <p class="kicker">With gratitude</p><h2>Your presence is the greatest gift.</h2>
+      <p data-registry-copy>For loved ones who have asked, registry information will be available here soon.</p>
+      <a class="text-link" data-registry-link href="#" aria-disabled="true">View registry <span>→</span></a>
+    </section>
+  </main>
+
+  <footer><a class="monogram" href="#top">P<span>&</span>K</a><p>Made with love for Phil & Kat</p><p class="footer-note">We can’t wait to celebrate with you.</p></footer>
+</body>
+</html>
